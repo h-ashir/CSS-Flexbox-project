@@ -74,3 +74,97 @@ header{
     color: white;
     font-size: 18px;
 }
+
+.random-info .title{
+    display: flex;
+    justify-content: center;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.card-section .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+}
+.card-section .card-container .card{
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(87, 144, 250);
+    border-radius: 8px;
+}
+.card-section .card-container p{
+    text-align: center;
+}
+
+.quotes-main{
+    background-color: gray;
+}
+.quotes-content{
+    padding: 70px 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* width: 800px; */
+}
+.quotes h1{
+    font-size: 28px;
+    font-weight: normal;
+    opacity: .7;
+}
+.quotes-author{
+    display: flex;
+    justify-content: flex-end;
+}
+.quotes-author h5{
+    font-size: 24px;
+}
+
+.sign-up-section{
+    padding: 150px;
+}
+.sign-up-contents{
+    border-radius: 4px;
+    padding: 50px 20px;
+    background-color: rgb(0, 110, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.sign-up-contents .intro-text{
+    color: white;
+}
+.sign-up-contents .intro-text h2{
+    font-size: 24px;
+}
+.sign-up-contents .intro-text h5{
+    font-size: 16px;
+    opacity: .7;
+}
+.sign-up-contents .sign-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-contents .sign-up-button button{
+    background-color:transparent;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.footer{
+    background-color: rgb(49, 48, 65);
+}
+.footer-copyright{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
